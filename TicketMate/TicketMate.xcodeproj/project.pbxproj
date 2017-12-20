@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B17EA4819BDD3D65A5AB73B /* Pods_TicketMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AFF4EB4C499C9033DE1252 /* Pods_TicketMate.framework */; };
 		8A620F271FEAFA850076D418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A620F261FEAFA850076D418 /* AppDelegate.swift */; };
 		8A620F291FEAFA850076D418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A620F281FEAFA850076D418 /* ViewController.swift */; };
 		8A620F2C1FEAFA850076D418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A620F2A1FEAFA850076D418 /* Main.storyboard */; };
 		8A620F2E1FEAFA850076D418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A620F2D1FEAFA850076D418 /* Assets.xcassets */; };
 		8A620F311FEAFA850076D418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A620F2F1FEAFA850076D418 /* LaunchScreen.storyboard */; };
+		8A620F3B1FEAFC760076D418 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A620F3A1FEAFC760076D418 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54AFF4EB4C499C9033DE1252 /* Pods_TicketMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664A7E02F1603FB8BDE53740 /* Pods-TicketMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketMate/Pods-TicketMate.debug.xcconfig"; sourceTree = "<group>"; };
 		8A620F231FEAFA850076D418 /* TicketMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A620F261FEAFA850076D418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A620F281FEAFA850076D418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		8A620F2D1FEAFA850076D418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A620F301FEAFA850076D418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A620F321FEAFA850076D418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A620F3A1FEAFC760076D418 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90705E19A8FD8E309364CB78 /* Pods-TicketMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketMate/Pods-TicketMate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B17EA4819BDD3D65A5AB73B /* Pods_TicketMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03FE17FACA1B724106C0EECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54AFF4EB4C499C9033DE1252 /* Pods_TicketMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A620F1A1FEAFA850076D418 = {
 			isa = PBXGroup;
 			children = (
 				8A620F251FEAFA850076D418 /* TicketMate */,
 				8A620F241FEAFA850076D418 /* Products */,
+				8B4647F82093E331A25F46BA /* Pods */,
+				03FE17FACA1B724106C0EECF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,18 @@
 				8A620F2D1FEAFA850076D418 /* Assets.xcassets */,
 				8A620F2F1FEAFA850076D418 /* LaunchScreen.storyboard */,
 				8A620F321FEAFA850076D418 /* Info.plist */,
+				8A620F3A1FEAFC760076D418 /* GoogleService-Info.plist */,
 			);
 			path = TicketMate;
+			sourceTree = "<group>";
+		};
+		8B4647F82093E331A25F46BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				664A7E02F1603FB8BDE53740 /* Pods-TicketMate.debug.xcconfig */,
+				90705E19A8FD8E309364CB78 /* Pods-TicketMate.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A620F351FEAFA850076D418 /* Build configuration list for PBXNativeTarget "TicketMate" */;
 			buildPhases = (
+				16DF297DE1C556B445A61434 /* [CP] Check Pods Manifest.lock */,
 				8A620F1F1FEAFA850076D418 /* Sources */,
 				8A620F201FEAFA850076D418 /* Frameworks */,
 				8A620F211FEAFA850076D418 /* Resources */,
+				0ED1D33256CA8BDF4659CD6F /* [CP] Embed Pods Frameworks */,
+				478B4BAA62F81D2BB0CD289D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A620F311FEAFA850076D418 /* LaunchScreen.storyboard in Resources */,
+				8A620F3B1FEAFC760076D418 /* GoogleService-Info.plist in Resources */,
 				8A620F2E1FEAFA850076D418 /* Assets.xcassets in Resources */,
 				8A620F2C1FEAFA850076D418 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ED1D33256CA8BDF4659CD6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TicketMate/Pods-TicketMate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketMate/Pods-TicketMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16DF297DE1C556B445A61434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicketMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		478B4BAA62F81D2BB0CD289D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketMate/Pods-TicketMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A620F1F1FEAFA850076D418 /* Sources */ = {
@@ -272,6 +359,7 @@
 		};
 		8A620F361FEAFA850076D418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664A7E02F1603FB8BDE53740 /* Pods-TicketMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,6 +376,7 @@
 		};
 		8A620F371FEAFA850076D418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90705E19A8FD8E309364CB78 /* Pods-TicketMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
